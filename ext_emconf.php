@@ -14,8 +14,8 @@ $EM_CONF[$_EXTKEY] = [
     'author_company' => 'Pixelant',
     'constraints' => [
         'depends' => [
-            'typo3' => '7.6.0-7.99.99',
-            'static_info_tables' => '6.4.0-6.4.99',
+            'typo3' => '8.7.0-9.5.99',
+            'static_info_tables' => '6.4.0-6.99.99',
         ],
         'conflicts' => [],
         'suggests' => [],

@@ -1,5 +1,6 @@
 <?php
-namespace SJBR\StaticInfoTables\Domain\Model;
+namespace Pix\StaticInfoTablesNo\Domain\Model;
+use SJBR\StaticInfoTables\Domain\Model\AbstractEntity;
 /***************************************************************
 *  Copyright notice
 *

@@ -1,0 +1,27 @@
+{
+	"name": "pixelant/static-info-tables-no",
+	"description": "Norwegian language pack for Static Info Tables.",
+	"type": "typo3-cms-extension",
+	"license": "GPL-2.0+",
+	"keywords": [
+		"TYPO3 CMS",
+		"Static Info Tables"
+	],
+	"replace": {
+		"static_info_tables_no": "*"
+	},
+	"require": {
+		"typo3/cms-core": "^8.7 || ^9.5",
+		"sjbr/static-info-tables": "^6"
+	},
+	"autoload": {
+		"psr-4": {
+			"Pix\\StaticInfoTablesNo\\": "Classes/"
+		}
+	},
+	"extra": {
+		"typo3/cms": {
+			"extension-key": "static_info_tables_no"
+		}
+	}
+}
